@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class WordInText {
@@ -14,7 +13,7 @@ public class WordInText {
             try {
                 System.out.print("Input sentence: ");
                 sentence = inputValue.nextLine();
-                System.out.println("Input word: ");
+                System.out.print("Input word: ");
                 word = inputValue.nextLine();
                 break;
             } catch (NumberFormatException ignored) {}
